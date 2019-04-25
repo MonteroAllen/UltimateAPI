@@ -1,0 +1,42 @@
+{
+  "Characters": [{
+    "CharID": 8,
+    "Character Name": "Daisy",
+    "Weight": 89,
+    "Run Speed": 1.342,
+    "Walk Speed": 0.654,
+    "AirSpeed": 1.023,
+    "Gravity": 0.07,
+    "SH Air Time": 41,
+    "Max Jumps": 2,
+    "Wall Jump": false,
+    "Wall Cling": false,
+    "Crawl": false,
+    "Tether": false,
+    "Jumpsquat": 3,
+    "Soft landing lag": 2,
+    "Hard landing lag": 4,
+    "FH Air Time": 57
+  }],
+  "Moves:": [{
+    "MoveID": 0,
+    "CharID": 8,
+    "Type": "grounded",
+    "Name": "Jab 1",
+    "Startup Frame": 2,
+    "Shield Safeness": -6
+  }],
+  "Hitboxes": [{
+    "HitboxID": 0,
+    "MoveID": 0,
+    "Start": 2,
+    "End": 2,
+    "Damage": 2,
+    "FAF": 28,
+    "Angle": 361,
+    "BKB": 30,
+    "KBG": 25,
+    "Landing Lag": null,
+    "Autocancel": null
+  }]
+}
