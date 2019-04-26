@@ -11,7 +11,7 @@ airAccelUrl = "http://kuroganehammer.com/Ultimate/AirAcceleration"
 fallSpeedUrl = "http://kuroganehammer.com/Ultimate/FallSpeed"
 initDashUrl = "http://kuroganehammer.com/Ultimate/DashSpeed"
 
-def createDict(cleanList):
+def createDict(cleanList, valueCol=3):
   weightDict = {}
   for clean in cleanList:
     singleColumn = clean.replace(';;', ';')
@@ -19,7 +19,7 @@ def createDict(cleanList):
       singleColumn = singleColumn.replace(';;', ';')
     charEntry = singleColumn.split(';')
     if (len(charEntry) > 3):
-      weightDict[charEntry[2]] = charEntry[3]
+      weightDict[charEntry[2]] = charEntry[valueCol]
   return weightDict
 
 def parseResponse(responseText):
@@ -54,7 +54,7 @@ if __name__ == "__main__":
   #################### Air Accceleration ###########################
   airAccelResponse = requests.get(airAccelUrl)
   airAccelCleaned = parseResponse(airAccelResponse.text)
-  airAccelDict = createDict(airAccelCleaned)
+  airAccelDict = createDict(airAccelCleaned, 5)
   print(airAccelDict)
   ####################### Fall Speed ##############################
   fallSpeedResponse = requests.get(fallSpeedUrl)
