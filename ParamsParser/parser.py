@@ -3,6 +3,14 @@
 import requests
 import re
 
+weigthUrl = "http://kuroganehammer.com/Ultimate/Weight"
+runSpeedUrl = "http://kuroganehammer.com/Ultimate/RunSpeed"
+walkSpeedUrl = "http://kuroganehammer.com/Ultimate/WalkSpeed"
+airSpeedUrl = "http://kuroganehammer.com/Ultimate/AirSpeed"
+airAccelUrl = "http://kuroganehammer.com/Ultimate/AirAcceleration"
+fallSpeedUrl = "http://kuroganehammer.com/Ultimate/FallSpeed"
+initDashUrl = "http://kuroganehammer.com/Ultimate/DashSpeed"
+
 def createDict(cleanList):
   weightDict = {}
   for clean in cleanList:
@@ -23,23 +31,38 @@ def parseResponse(responseText):
   return cleaned
 
 if __name__ == "__main__":
-  weigthUrl = "http://kuroganehammer.com/Ultimate/Weight"
-  runSpeedUrl = "http://kuroganehammer.com/Ultimate/RunSpeed"
-  walkSpeedUrl = "http://kuroganehammer.com/Ultimate/WalkSpeed"
-  airSpeedUrl = "http://kuroganehammer.com/Ultimate/AirSpeed"
-  airAccelUrl = "http://kuroganehammer.com/Ultimate/AirAcceleration"
-  fallSpeedUrl = "http://kuroganehammer.com/Ultimate/FallSpeed"
-  initDashUrl = "http://kuroganehammer.com/Ultimate/DashSpeed"
   ########################## Weight #################################
   weightresponse = requests.get(weigthUrl)
   weightcleaned = parseResponse(weightresponse.text)
   weightDict = createDict(weightcleaned)
   print(weightDict)
-  # Response = requests.get(weigthUrl)
-  # Cleaned = parseResponse(weightresponse.text)
-  # Dict = createDict(weightcleaned)
-  ########################## RunSpeed #################################
+  ######################### RunSpeed ################################
   runSpeedResponse = requests.get(runSpeedUrl)
   runSpeedCleaned = parseResponse(runSpeedResponse.text)
   runSpeedDict = createDict(runSpeedCleaned)
   print(runSpeedDict)
+  ######################## WalkSpeed ###############################
+  walkSpeedResponse = requests.get(walkSpeedUrl)
+  walkSpeedCleaned = parseResponse(walkSpeedResponse.text)
+  walkSpeedDict = createDict(walkSpeedCleaned)
+  print(walkSpeedDict)
+  ######################## AirSpeed ###############################
+  airSpeedResponse = requests.get(airSpeedUrl)
+  airSpeedCleaned = parseResponse(airSpeedResponse.text)
+  airSpeedDict = createDict(airSpeedCleaned)
+  print(airSpeedDict)
+  #################### Air Accceleration ###########################
+  airAccelResponse = requests.get(airAccelUrl)
+  airAccelCleaned = parseResponse(airAccelResponse.text)
+  airAccelDict = createDict(airAccelCleaned)
+  print(airAccelDict)
+  ####################### Fall Speed ##############################
+  fallSpeedResponse = requests.get(fallSpeedUrl)
+  fallSpeedCleaned = parseResponse(fallSpeedResponse.text)
+  fallSpeedDict = createDict(fallSpeedCleaned)
+  print(fallSpeedDict)
+  ################### Initial Dash Speed ##########################
+  initDashResponse = requests.get(initDashUrl)
+  initDashCleaned = parseResponse(initDashResponse.text)
+  initDashDict = createDict(initDashCleaned)
+  print(initDashDict)
