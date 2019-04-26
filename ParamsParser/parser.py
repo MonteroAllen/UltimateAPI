@@ -24,11 +24,7 @@ def parseResponse(responseText):
 
 if __name__ == "__main__":
   weigthUrl = "http://kuroganehammer.com/Ultimate/Weight"
-
   response = requests.get(weigthUrl)
-
   cleaned = parseResponse(response.text)
-
   weightDict = createDict(cleaned)
-
   print(weightDict)
