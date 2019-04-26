@@ -49,37 +49,37 @@ if __name__ == "__main__":
   weightresponse = requests.get(weigthUrl)
   weightcleaned = parseResponse(weightresponse.text)
   weightDict = createDict(weightcleaned)
-  print(weightDict)
+  # print(weightDict)
   ######################### RunSpeed ################################
   runSpeedResponse = requests.get(runSpeedUrl)
   runSpeedCleaned = parseResponse(runSpeedResponse.text)
   runSpeedDict = createDict(runSpeedCleaned)
-  print(runSpeedDict)
+  # print(runSpeedDict)
   ######################## WalkSpeed ###############################
   walkSpeedResponse = requests.get(walkSpeedUrl)
   walkSpeedCleaned = parseResponse(walkSpeedResponse.text)
   walkSpeedDict = createDict(walkSpeedCleaned)
-  print(walkSpeedDict)
+  # print(walkSpeedDict)
   ######################## AirSpeed ###############################
   airSpeedResponse = requests.get(airSpeedUrl)
   airSpeedCleaned = parseResponse(airSpeedResponse.text)
   airSpeedDict = createDict(airSpeedCleaned)
-  print(airSpeedDict)
+  # print(airSpeedDict)
   #################### Air Accceleration ###########################
   airAccelResponse = requests.get(airAccelUrl)
   airAccelCleaned = parseResponse(airAccelResponse.text)
   airAccelDict = createDict(airAccelCleaned, 5)
-  print(airAccelDict)
+  # print(airAccelDict)
   ####################### Fall Speed ##############################
   fallSpeedResponse = requests.get(fallSpeedUrl)
   fallSpeedCleaned = parseResponse(fallSpeedResponse.text)
   fallSpeedDict = createDict(fallSpeedCleaned)
-  print(fallSpeedDict)
+  # print(fallSpeedDict)
   ################### Initial Dash Speed ##########################
   initDashResponse = requests.get(initDashUrl)
   initDashCleaned = parseResponse(initDashResponse.text)
   initDashDict = createDict(initDashCleaned)
-  print(initDashDict)
+  # print(initDashDict)
   #################### Rest of the code ###########################
   finalDict = {}
   for character in weightDict.keys():
