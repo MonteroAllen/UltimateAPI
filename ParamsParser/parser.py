@@ -19,6 +19,20 @@ def createDict(cleanList, valueCol=3):
       singleColumn = singleColumn.replace(';;', ';')
     charEntry = singleColumn.split(';')
     if (len(charEntry) > 3):
+      if charEntry[2] == "Dedede":
+        charEntry[2] = "King Dedede"
+      if charEntry[2] == "Dank Samus":
+        charEntry[2] = "Dark Samus"
+      if charEntry[2] == "Mii Swordspider":
+        charEntry[2] = "Mii Swordfighter"
+      if charEntry[2] == "Educated Mario" or charEntry[2] == "Dr Mario":
+        charEntry[2] = "Dr. Mario"
+      if charEntry[2] == "Pit, but edgy":
+        charEntry[2] = "Dark Pit"
+      if charEntry[2] == "Popo":
+        charEntry[2] = "Ice Climbers"
+      if charEntry[2] == "M. Game & Watch":
+        charEntry[2] = "Mr. Game & Watch"
       weightDict[charEntry[2]] = charEntry[valueCol]
   return weightDict
 
@@ -66,3 +80,8 @@ if __name__ == "__main__":
   initDashCleaned = parseResponse(initDashResponse.text)
   initDashDict = createDict(initDashCleaned)
   print(initDashDict)
+  #################### Rest of the code ###########################
+  finalDict = {}
+  for character in weightDict.keys():
+    finalDict[character] = [weightDict[character], runSpeedDict[character], walkSpeedDict[character], airSpeedDict[character], airAccelDict[character], fallSpeedDict[character], initDashDict[character]]
+  print(finalDict)
