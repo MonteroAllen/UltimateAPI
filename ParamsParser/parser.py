@@ -11,6 +11,17 @@ airAccelUrl = "http://kuroganehammer.com/Ultimate/AirAcceleration"
 fallSpeedUrl = "http://kuroganehammer.com/Ultimate/FallSpeed"
 initDashUrl = "http://kuroganehammer.com/Ultimate/DashSpeed"
 
+jsonTemplate = """
+\t\t\"Character Name\": \"{0}\",
+\t\t\"Weight\": {1},
+\t\t\"Run Speed\": {2},
+\t\t\"Walk Speed\": {3},
+\t\t\"Air Speed\": {4},
+\t\t\"Air Acceleration Speed\": {5},
+\t\t\"Fall Speed\": {6},
+\t\t\"Inital Dash Speed\": {7}
+"""
+
 def createDict(cleanList, valueCol=3):
   weightDict = {}
   for clean in cleanList:
@@ -84,4 +95,14 @@ if __name__ == "__main__":
   finalDict = {}
   for character in weightDict.keys():
     finalDict[character] = [weightDict[character], runSpeedDict[character], walkSpeedDict[character], airSpeedDict[character], airAccelDict[character], fallSpeedDict[character], initDashDict[character]]
-  print(finalDict)
+  # print(finalDict)
+  # CharName: [weight, runSpeed, walkSpeed, airSpeed, airAccelSpeed, fallSpeed, InitDashSpeed]
+  jsonString = "{"
+  for charName in finalDict:
+    currEntry = finalDict[charName]
+    jsonString += "\n\t{"
+    jsonString += jsonTemplate.format(charName, currEntry[0], currEntry[1], currEntry[2], currEntry[3], currEntry[4], currEntry[5], currEntry[6])
+    jsonString += "\n\t},"
+  jsonString = jsonString[:-1]
+  jsonString += "\n}"
+  print(jsonString)
