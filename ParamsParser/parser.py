@@ -2,7 +2,6 @@
 
 import requests
 import re
-import itertools
 
 def createDict(cleanList):
   weightDict = {}
@@ -16,16 +15,31 @@ def createDict(cleanList):
   return weightDict
 
 def parseResponse(responseText):
-  entries = re.findall(r"<tr>(.*?)<\/tr>", responseText, re.MULTILINE | re.DOTALL)
+  tbody = re.findall(r"<tbody>(.*?)<\/tbody>", responseText, re.MULTILINE | re.DOTALL)
+  entries = re.findall(r"<tr>(.*?)<\/tr>", tbody[0], re.MULTILINE | re.DOTALL)
   cleaned = []
   for entry in entries:
     cleaned.append(re.sub(r'<(.*?)>', ';', entry.replace('\t', '').replace('\n', ''), count=15, flags=(re.MULTILINE | re.DOTALL)))
-  cleaned.pop(0)
   return cleaned
 
 if __name__ == "__main__":
   weigthUrl = "http://kuroganehammer.com/Ultimate/Weight"
-  response = requests.get(weigthUrl)
-  cleaned = parseResponse(response.text)
-  weightDict = createDict(cleaned)
+  runSpeedUrl = "http://kuroganehammer.com/Ultimate/RunSpeed"
+  walkSpeedUrl = "http://kuroganehammer.com/Ultimate/WalkSpeed"
+  airSpeedUrl = "http://kuroganehammer.com/Ultimate/AirSpeed"
+  airAccelUrl = "http://kuroganehammer.com/Ultimate/AirAcceleration"
+  fallSpeedUrl = "http://kuroganehammer.com/Ultimate/FallSpeed"
+  initDashUrl = "http://kuroganehammer.com/Ultimate/DashSpeed"
+  ########################## Weight #################################
+  weightresponse = requests.get(weigthUrl)
+  weightcleaned = parseResponse(weightresponse.text)
+  weightDict = createDict(weightcleaned)
   print(weightDict)
+  # Response = requests.get(weigthUrl)
+  # Cleaned = parseResponse(weightresponse.text)
+  # Dict = createDict(weightcleaned)
+  ########################## RunSpeed #################################
+  runSpeedResponse = requests.get(runSpeedUrl)
+  runSpeedCleaned = parseResponse(runSpeedResponse.text)
+  runSpeedDict = createDict(runSpeedCleaned)
+  print(runSpeedDict)
