@@ -7,7 +7,9 @@ import itertools
 def createDict(cleanList):
   weightDict = {}
   for clean in cleanList:
-    singleColumn = ''.join(ch for ch, _ in itertools.groupby(clean))
+    singleColumn = clean.replace(';;', ';')
+    for ch in clean:
+      singleColumn = singleColumn.replace(';;', ';')
     charEntry = singleColumn.split(';')
     if (len(charEntry) > 3):
       weightDict[charEntry[2]] = charEntry[3]
@@ -18,7 +20,6 @@ def parseResponse(responseText):
   cleaned = []
   for entry in entries:
     cleaned.append(re.sub(r'<(.*?)>', ';', entry.replace('\t', '').replace('\n', ''), count=15, flags=(re.MULTILINE | re.DOTALL)))
-  cleaned.pop(0)
   cleaned.pop(0)
   return cleaned
 
