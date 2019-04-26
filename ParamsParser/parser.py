@@ -98,11 +98,13 @@ if __name__ == "__main__":
   # print(finalDict)
   # CharName: [weight, runSpeed, walkSpeed, airSpeed, airAccelSpeed, fallSpeed, InitDashSpeed]
   jsonString = "{"
+  iterator = 0
   for charName in finalDict:
     currEntry = finalDict[charName]
-    jsonString += "\n\t{"
+    jsonString += "\n\t\"{}\"".format(iterator) + ": {"
     jsonString += jsonTemplate.format(charName, currEntry[0], currEntry[1], currEntry[2], currEntry[3], currEntry[4], currEntry[5], currEntry[6])
     jsonString += "\n\t},"
+    iterator += 1
   jsonString = jsonString[:-1]
   jsonString += "\n}"
   print(jsonString)

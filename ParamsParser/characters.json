@@ -1,5 +1,5 @@
 {
-	{
+	"0": {
 		"Character Name": "Bowser",
 		"Weight": 135,
 		"Run Speed": 1.971,
@@ -10,7 +10,7 @@
 		"Inital Dash Speed": 2.255
 
 	},
-	{
+	"1": {
 		"Character Name": "King K. Rool",
 		"Weight": 133,
 		"Run Speed": 1.485,
@@ -21,7 +21,7 @@
 		"Inital Dash Speed": 1.936
 
 	},
-	{
+	"2": {
 		"Character Name": "Donkey Kong",
 		"Weight": 127,
 		"Run Speed": 1.873,
@@ -32,7 +32,7 @@
 		"Inital Dash Speed": 2.09
 
 	},
-	{
+	"3": {
 		"Character Name": "King Dedede",
 		"Weight": 127,
 		"Run Speed": 1.496,
@@ -43,7 +43,7 @@
 		"Inital Dash Speed": 1.815
 
 	},
-	{
+	"4": {
 		"Character Name": "Ganondorf",
 		"Weight": 118,
 		"Run Speed": 1.34,
@@ -54,7 +54,7 @@
 		"Inital Dash Speed": 1.87
 
 	},
-	{
+	"5": {
 		"Character Name": "Charizard",
 		"Weight": 116,
 		"Run Speed": 2.2,
@@ -65,7 +65,7 @@
 		"Inital Dash Speed": 2.288
 
 	},
-	{
+	"6": {
 		"Character Name": "Incineroar",
 		"Weight": 116,
 		"Run Speed": 1.18,
@@ -76,7 +76,7 @@
 		"Inital Dash Speed": 1.76
 
 	},
-	{
+	"7": {
 		"Character Name": "Piranha Plant",
 		"Weight": 112,
 		"Run Speed": 1.72,
@@ -87,7 +87,7 @@
 		"Inital Dash Speed": 1.82
 
 	},
-	{
+	"8": {
 		"Character Name": "Samus",
 		"Weight": 108,
 		"Run Speed": 1.654,
@@ -98,7 +98,7 @@
 		"Inital Dash Speed": 1.87
 
 	},
-	{
+	"9": {
 		"Character Name": "Dark Samus",
 		"Weight": 108,
 		"Run Speed": 1.654,
@@ -109,7 +109,7 @@
 		"Inital Dash Speed": 1.87
 
 	},
-	{
+	"10": {
 		"Character Name": "Bowser Jr",
 		"Weight": 108,
 		"Run Speed": 1.566,
@@ -120,7 +120,7 @@
 		"Inital Dash Speed": 1.76
 
 	},
-	{
+	"11": {
 		"Character Name": "Richter",
 		"Weight": 107,
 		"Run Speed": 1.52,
@@ -131,7 +131,7 @@
 		"Inital Dash Speed": 1.73
 
 	},
-	{
+	"12": {
 		"Character Name": "Simon",
 		"Weight": 107,
 		"Run Speed": 1.52,
@@ -142,7 +142,7 @@
 		"Inital Dash Speed": 1.73
 
 	},
-	{
+	"13": {
 		"Character Name": "Ike",
 		"Weight": 107,
 		"Run Speed": 1.507,
@@ -153,7 +153,7 @@
 		"Inital Dash Speed": 1.815
 
 	},
-	{
+	"14": {
 		"Character Name": "Ridley",
 		"Weight": 107,
 		"Run Speed": 2.2,
@@ -164,7 +164,7 @@
 		"Inital Dash Speed": 1.8
 
 	},
-	{
+	"15": {
 		"Character Name": "Wario",
 		"Weight": 107,
 		"Run Speed": 1.65,
@@ -175,7 +175,7 @@
 		"Inital Dash Speed": 1.837
 
 	},
-	{
+	"16": {
 		"Character Name": "Snake",
 		"Weight": 106,
 		"Run Speed": 1.595,
@@ -186,7 +186,7 @@
 		"Inital Dash Speed": 1.76
 
 	},
-	{
+	"17": {
 		"Character Name": "R.O.B.",
 		"Weight": 106,
 		"Run Speed": 1.725,
@@ -197,7 +197,7 @@
 		"Inital Dash Speed": 2.002
 
 	},
-	{
+	"18": {
 		"Character Name": "Link",
 		"Weight": 104,
 		"Run Speed": 1.534,
@@ -208,7 +208,7 @@
 		"Inital Dash Speed": 1.98
 
 	},
-	{
+	"19": {
 		"Character Name": "Yoshi",
 		"Weight": 104,
 		"Run Speed": 2.046,
@@ -219,7 +219,7 @@
 		"Inital Dash Speed": 1.98
 
 	},
-	{
+	"20": {
 		"Character Name": "Captain Falcon",
 		"Weight": 104,
 		"Run Speed": 2.552,
@@ -230,7 +230,7 @@
 		"Inital Dash Speed": 1.98
 
 	},
-	{
+	"21": {
 		"Character Name": "Mii Gunner",
 		"Weight": 104,
 		"Run Speed": 1.37,
@@ -241,7 +241,7 @@
 		"Inital Dash Speed": 1.63
 
 	},
-	{
+	"22": {
 		"Character Name": "Ken",
 		"Weight": 103,
 		"Run Speed": 1.76,
@@ -252,7 +252,7 @@
 		"Inital Dash Speed": 1.936
 
 	},
-	{
+	"23": {
 		"Character Name": "Ryu",
 		"Weight": 103,
 		"Run Speed": 1.6,
@@ -263,7 +263,7 @@
 		"Inital Dash Speed": 1.76
 
 	},
-	{
+	"24": {
 		"Character Name": "Mega Man",
 		"Weight": 102,
 		"Run Speed": 1.602,
@@ -274,7 +274,7 @@
 		"Inital Dash Speed": 1.958
 
 	},
-	{
+	"25": {
 		"Character Name": "Cloud",
 		"Weight": 100,
 		"Run Speed": 2.167,
@@ -285,7 +285,7 @@
 		"Inital Dash Speed": 2.145
 
 	},
-	{
+	"26": {
 		"Character Name": "Mii Swordfighter",
 		"Weight": 100,
 		"Run Speed": 1.58,
@@ -296,7 +296,7 @@
 		"Inital Dash Speed": 1.74
 
 	},
-	{
+	"27": {
 		"Character Name": "Corrin",
 		"Weight": 98,
 		"Run Speed": 1.595,
@@ -307,7 +307,7 @@
 		"Inital Dash Speed": 1.892
 
 	},
-	{
+	"28": {
 		"Character Name": "Mario",
 		"Weight": 98,
 		"Run Speed": 1.76,
@@ -318,7 +318,7 @@
 		"Inital Dash Speed": 1.936
 
 	},
-	{
+	"29": {
 		"Character Name": "Dr. Mario",
 		"Weight": 98,
 		"Run Speed": 1.397792,
@@ -329,7 +329,7 @@
 		"Inital Dash Speed": 1.936
 
 	},
-	{
+	"30": {
 		"Character Name": "Luigi",
 		"Weight": 97,
 		"Run Speed": 1.65,
@@ -340,7 +340,7 @@
 		"Inital Dash Speed": 1.815
 
 	},
-	{
+	"31": {
 		"Character Name": "Shulk",
 		"Weight": 97,
 		"Run Speed": 1.672,
@@ -351,7 +351,7 @@
 		"Inital Dash Speed": 1.87
 
 	},
-	{
+	"32": {
 		"Character Name": "Pit",
 		"Weight": 96,
 		"Run Speed": 1.828,
@@ -362,7 +362,7 @@
 		"Inital Dash Speed": 2.09
 
 	},
-	{
+	"33": {
 		"Character Name": "Dark Pit",
 		"Weight": 96,
 		"Run Speed": 1.828,
@@ -373,7 +373,7 @@
 		"Inital Dash Speed": 2.09
 
 	},
-	{
+	"34": {
 		"Character Name": "Wii Fit Trainer",
 		"Weight": 96,
 		"Run Speed": 1.866,
@@ -384,7 +384,7 @@
 		"Inital Dash Speed": 2.024
 
 	},
-	{
+	"35": {
 		"Character Name": "Ivysaur",
 		"Weight": 96,
 		"Run Speed": 1.595,
@@ -395,7 +395,7 @@
 		"Inital Dash Speed": 1.903
 
 	},
-	{
+	"36": {
 		"Character Name": "Roy",
 		"Weight": 95,
 		"Run Speed": 2.145,
@@ -406,7 +406,7 @@
 		"Inital Dash Speed": 2.2
 
 	},
-	{
+	"37": {
 		"Character Name": "Chrom",
 		"Weight": 95,
 		"Run Speed": 2.145,
@@ -417,7 +417,7 @@
 		"Inital Dash Speed": 2.2
 
 	},
-	{
+	"38": {
 		"Character Name": "Robin",
 		"Weight": 95,
 		"Run Speed": 1.265,
@@ -428,7 +428,7 @@
 		"Inital Dash Speed": 1.815
 
 	},
-	{
+	"39": {
 		"Character Name": "PAC-MAN",
 		"Weight": 95,
 		"Run Speed": 1.672,
@@ -439,7 +439,7 @@
 		"Inital Dash Speed": 1.87
 
 	},
-	{
+	"40": {
 		"Character Name": "Ness",
 		"Weight": 94,
 		"Run Speed": 1.609,
@@ -450,7 +450,7 @@
 		"Inital Dash Speed": 1.826
 
 	},
-	{
+	"41": {
 		"Character Name": "Lucas",
 		"Weight": 94,
 		"Run Speed": 1.65,
@@ -461,7 +461,7 @@
 		"Inital Dash Speed": 1.815
 
 	},
-	{
+	"42": {
 		"Character Name": "Inkling",
 		"Weight": 94,
 		"Run Speed": 1.925,
@@ -472,7 +472,7 @@
 		"Inital Dash Speed": 2.118
 
 	},
-	{
+	"43": {
 		"Character Name": "Mii Brawler",
 		"Weight": 94,
 		"Run Speed": 1.92,
@@ -483,7 +483,7 @@
 		"Inital Dash Speed": 1.87
 
 	},
-	{
+	"44": {
 		"Character Name": "Wolf",
 		"Weight": 92,
 		"Run Speed": 1.54,
@@ -494,7 +494,7 @@
 		"Inital Dash Speed": 2.09
 
 	},
-	{
+	"45": {
 		"Character Name": "Ice Climbers",
 		"Weight": 92,
 		"Run Speed": 1.53,
@@ -505,7 +505,7 @@
 		"Inital Dash Speed": 1.68
 
 	},
-	{
+	"46": {
 		"Character Name": "Villager",
 		"Weight": 92,
 		"Run Speed": 1.397,
@@ -516,7 +516,7 @@
 		"Inital Dash Speed": 1.815
 
 	},
-	{
+	"47": {
 		"Character Name": "Lucario",
 		"Weight": 92,
 		"Run Speed": 1.705,
@@ -527,7 +527,7 @@
 		"Inital Dash Speed": 2.255
 
 	},
-	{
+	"48": {
 		"Character Name": "Palutena",
 		"Weight": 91,
 		"Run Speed": 2.077,
@@ -538,7 +538,7 @@
 		"Inital Dash Speed": 2.035
 
 	},
-	{
+	"49": {
 		"Character Name": "Toon Link",
 		"Weight": 91,
 		"Run Speed": 1.906,
@@ -549,7 +549,7 @@
 		"Inital Dash Speed": 1.914
 
 	},
-	{
+	"50": {
 		"Character Name": "Lucina",
 		"Weight": 90,
 		"Run Speed": 1.964,
@@ -560,7 +560,7 @@
 		"Inital Dash Speed": 2.255
 
 	},
-	{
+	"51": {
 		"Character Name": "Marth",
 		"Weight": 90,
 		"Run Speed": 1.964,
@@ -571,7 +571,7 @@
 		"Inital Dash Speed": 2.255
 
 	},
-	{
+	"52": {
 		"Character Name": "Diddy Kong",
 		"Weight": 90,
 		"Run Speed": 2.006,
@@ -582,7 +582,7 @@
 		"Inital Dash Speed": 2.09
 
 	},
-	{
+	"53": {
 		"Character Name": "Peach",
 		"Weight": 89,
 		"Run Speed": 1.595,
@@ -593,7 +593,7 @@
 		"Inital Dash Speed": 1.826
 
 	},
-	{
+	"54": {
 		"Character Name": "Daisy",
 		"Weight": 89,
 		"Run Speed": 1.595,
@@ -604,7 +604,7 @@
 		"Inital Dash Speed": 1.826
 
 	},
-	{
+	"55": {
 		"Character Name": "Isabelle",
 		"Weight": 88,
 		"Run Speed": 1.48,
@@ -615,7 +615,7 @@
 		"Inital Dash Speed": 1.815
 
 	},
-	{
+	"56": {
 		"Character Name": "Greninja",
 		"Weight": 88,
 		"Run Speed": 2.288,
@@ -626,7 +626,7 @@
 		"Inital Dash Speed": 2.178
 
 	},
-	{
+	"57": {
 		"Character Name": "Young Link",
 		"Weight": 88,
 		"Run Speed": 1.749,
@@ -637,7 +637,7 @@
 		"Inital Dash Speed": 2.09
 
 	},
-	{
+	"58": {
 		"Character Name": "Little Mac",
 		"Weight": 87,
 		"Run Speed": 2.464,
@@ -648,7 +648,7 @@
 		"Inital Dash Speed": 2.365
 
 	},
-	{
+	"59": {
 		"Character Name": "Sonic",
 		"Weight": 86,
 		"Run Speed": 3.85,
@@ -659,7 +659,7 @@
 		"Inital Dash Speed": 2.31
 
 	},
-	{
+	"60": {
 		"Character Name": "Duck Hunt",
 		"Weight": 86,
 		"Run Speed": 1.793,
@@ -670,7 +670,7 @@
 		"Inital Dash Speed": 1.76
 
 	},
-	{
+	"61": {
 		"Character Name": "Zelda",
 		"Weight": 85,
 		"Run Speed": 1.43,
@@ -681,7 +681,7 @@
 		"Inital Dash Speed": 1.958
 
 	},
-	{
+	"62": {
 		"Character Name": "Rosalina",
 		"Weight": 82,
 		"Run Speed": 1.795,
@@ -692,7 +692,7 @@
 		"Inital Dash Speed": 2.035
 
 	},
-	{
+	"63": {
 		"Character Name": "Falco",
 		"Weight": 82,
 		"Run Speed": 1.619,
@@ -703,7 +703,7 @@
 		"Inital Dash Speed": 2.035
 
 	},
-	{
+	"64": {
 		"Character Name": "Bayonetta",
 		"Weight": 81,
 		"Run Speed": 1.76,
@@ -714,7 +714,7 @@
 		"Inital Dash Speed": 1.936
 
 	},
-	{
+	"65": {
 		"Character Name": "Meta Knight",
 		"Weight": 80,
 		"Run Speed": 2.09,
@@ -725,7 +725,7 @@
 		"Inital Dash Speed": 2.211
 
 	},
-	{
+	"66": {
 		"Character Name": "Zero Suit Samus",
 		"Weight": 80,
 		"Run Speed": 2.31,
@@ -736,7 +736,7 @@
 		"Inital Dash Speed": 2.42
 
 	},
-	{
+	"67": {
 		"Character Name": "Kirby",
 		"Weight": 79,
 		"Run Speed": 1.727,
@@ -747,7 +747,7 @@
 		"Inital Dash Speed": 1.9
 
 	},
-	{
+	"68": {
 		"Character Name": "Pikachu",
 		"Weight": 79,
 		"Run Speed": 2.039,
@@ -758,7 +758,7 @@
 		"Inital Dash Speed": 1.98
 
 	},
-	{
+	"69": {
 		"Character Name": "Olimar",
 		"Weight": 79,
 		"Run Speed": 1.617,
@@ -769,7 +769,7 @@
 		"Inital Dash Speed": 1.606
 
 	},
-	{
+	"70": {
 		"Character Name": "Sheik",
 		"Weight": 78,
 		"Run Speed": 2.42,
@@ -780,7 +780,7 @@
 		"Inital Dash Speed": 2.178
 
 	},
-	{
+	"71": {
 		"Character Name": "Mewtwo",
 		"Weight": 77,
 		"Run Speed": 2.255,
@@ -791,7 +791,7 @@
 		"Inital Dash Speed": 2.255
 
 	},
-	{
+	"72": {
 		"Character Name": "Fox",
 		"Weight": 77,
 		"Run Speed": 2.402,
@@ -802,7 +802,7 @@
 		"Inital Dash Speed": 2.09
 
 	},
-	{
+	"73": {
 		"Character Name": "Mr. Game & Watch",
 		"Weight": 75,
 		"Run Speed": 1.679,
@@ -813,7 +813,7 @@
 		"Inital Dash Speed": 1.98
 
 	},
-	{
+	"74": {
 		"Character Name": "Squirtle",
 		"Weight": 75,
 		"Run Speed": 1.76,
@@ -824,7 +824,7 @@
 		"Inital Dash Speed": 1.936
 
 	},
-	{
+	"75": {
 		"Character Name": "Jigglypuff",
 		"Weight": 68,
 		"Run Speed": 1.271,
@@ -835,7 +835,7 @@
 		"Inital Dash Speed": 1.65
 
 	},
-	{
+	"76": {
 		"Character Name": "Pichu",
 		"Weight": 62,
 		"Run Speed": 1.892,
