@@ -19,7 +19,7 @@ jsonTemplate = """
 \t\t\"Air Speed\": {4},
 \t\t\"Air Acceleration Speed\": {5},
 \t\t\"Fall Speed\": {6},
-\t\t\"Inital Dash Speed\": {7}
+\t\t\"Initial Dash Speed\": {7}
 """
 
 def createDict(cleanList, valueCol=3):
