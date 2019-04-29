@@ -95,7 +95,7 @@ if __name__ == "__main__":
     currEntry = finalDict[charName]
     jsonString += "\n\t\"{}\"".format(iterator) + ": {"
     jsonString += jsonTemplate.format(charName, currEntry[0], currEntry[1], currEntry[2], currEntry[3], currEntry[4], currEntry[5], currEntry[6])
-    jsonString += "\n\t},"
+    jsonString += "\t},"
     iterator += 1
   jsonString = jsonString[:-1]
   jsonString += "\n}"

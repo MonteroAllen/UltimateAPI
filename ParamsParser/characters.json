@@ -8,7 +8,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.77,
 		"Initial Dash Speed": 2.255
-
 	},
 	"1": {
 		"Character Name": "King K. Rool",
@@ -19,7 +18,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.7,
 		"Initial Dash Speed": 1.936
-
 	},
 	"2": {
 		"Character Name": "Donkey Kong",
@@ -30,7 +28,6 @@
 		"Air Acceleration Speed": 0.06,
 		"Fall Speed": 1.63,
 		"Initial Dash Speed": 2.09
-
 	},
 	"3": {
 		"Character Name": "King Dedede",
@@ -41,7 +38,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.95,
 		"Initial Dash Speed": 1.815
-
 	},
 	"4": {
 		"Character Name": "Ganondorf",
@@ -52,7 +48,6 @@
 		"Air Acceleration Speed": 0.04,
 		"Fall Speed": 1.65,
 		"Initial Dash Speed": 1.87
-
 	},
 	"5": {
 		"Character Name": "Charizard",
@@ -63,7 +58,6 @@
 		"Air Acceleration Speed": 0.06,
 		"Fall Speed": 1.52,
 		"Initial Dash Speed": 2.288
-
 	},
 	"6": {
 		"Character Name": "Incineroar",
@@ -74,7 +68,6 @@
 		"Air Acceleration Speed": 0.07,
 		"Fall Speed": 1.76,
 		"Initial Dash Speed": 1.76
-
 	},
 	"7": {
 		"Character Name": "Piranha Plant",
@@ -85,7 +78,6 @@
 		"Air Acceleration Speed": 0.06,
 		"Fall Speed": 1.95,
 		"Initial Dash Speed": 1.82
-
 	},
 	"8": {
 		"Character Name": "Samus",
@@ -96,7 +88,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.33,
 		"Initial Dash Speed": 1.87
-
 	},
 	"9": {
 		"Character Name": "Dark Samus",
@@ -107,7 +98,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.33,
 		"Initial Dash Speed": 1.87
-
 	},
 	"10": {
 		"Character Name": "Bowser Jr",
@@ -118,7 +108,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.65,
 		"Initial Dash Speed": 1.76
-
 	},
 	"11": {
 		"Character Name": "Richter",
@@ -129,7 +118,6 @@
 		"Air Acceleration Speed": 0.03,
 		"Fall Speed": 1.85,
 		"Initial Dash Speed": 1.73
-
 	},
 	"12": {
 		"Character Name": "Simon",
@@ -140,7 +128,6 @@
 		"Air Acceleration Speed": 0.03,
 		"Fall Speed": 1.85,
 		"Initial Dash Speed": 1.73
-
 	},
 	"13": {
 		"Character Name": "Ike",
@@ -151,7 +138,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.65,
 		"Initial Dash Speed": 1.815
-
 	},
 	"14": {
 		"Character Name": "Ridley",
@@ -162,7 +148,6 @@
 		"Air Acceleration Speed": 0.07,
 		"Fall Speed": 1.78,
 		"Initial Dash Speed": 1.8
-
 	},
 	"15": {
 		"Character Name": "Wario",
@@ -173,7 +158,6 @@
 		"Air Acceleration Speed": 0.12,
 		"Fall Speed": 1.61,
 		"Initial Dash Speed": 1.837
-
 	},
 	"16": {
 		"Character Name": "Snake",
@@ -184,7 +168,6 @@
 		"Air Acceleration Speed": 0.03,
 		"Fall Speed": 1.73,
 		"Initial Dash Speed": 1.76
-
 	},
 	"17": {
 		"Character Name": "R.O.B.",
@@ -195,7 +178,6 @@
 		"Air Acceleration Speed": 0.085,
 		"Fall Speed": 1.6,
 		"Initial Dash Speed": 2.002
-
 	},
 	"18": {
 		"Character Name": "Link",
@@ -206,7 +188,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.6,
 		"Initial Dash Speed": 1.98
-
 	},
 	"19": {
 		"Character Name": "Yoshi",
@@ -217,7 +198,6 @@
 		"Air Acceleration Speed": 0.098,
 		"Fall Speed": 1.29,
 		"Initial Dash Speed": 1.98
-
 	},
 	"20": {
 		"Character Name": "Captain Falcon",
@@ -228,7 +208,6 @@
 		"Air Acceleration Speed": 0.075,
 		"Fall Speed": 1.865,
 		"Initial Dash Speed": 1.98
-
 	},
 	"21": {
 		"Character Name": "Mii Gunner",
@@ -239,7 +218,6 @@
 		"Air Acceleration Speed": 0.053,
 		"Fall Speed": 1.45,
 		"Initial Dash Speed": 1.63
-
 	},
 	"22": {
 		"Character Name": "Ken",
@@ -250,7 +228,6 @@
 		"Air Acceleration Speed": 0.035,
 		"Fall Speed": 1.6,
 		"Initial Dash Speed": 1.936
-
 	},
 	"23": {
 		"Character Name": "Ryu",
@@ -261,7 +238,6 @@
 		"Air Acceleration Speed": 0.035,
 		"Fall Speed": 1.6,
 		"Initial Dash Speed": 1.76
-
 	},
 	"24": {
 		"Character Name": "Mega Man",
@@ -272,7 +248,6 @@
 		"Air Acceleration Speed": 0.11,
 		"Fall Speed": 1.8,
 		"Initial Dash Speed": 1.958
-
 	},
 	"25": {
 		"Character Name": "Cloud",
@@ -283,7 +258,6 @@
 		"Air Acceleration Speed": 0.07,
 		"Fall Speed": 1.68,
 		"Initial Dash Speed": 2.145
-
 	},
 	"26": {
 		"Character Name": "Mii Swordfighter",
@@ -294,7 +268,6 @@
 		"Air Acceleration Speed": 0.06,
 		"Fall Speed": 1.55,
 		"Initial Dash Speed": 1.74
-
 	},
 	"27": {
 		"Character Name": "Corrin",
@@ -305,7 +278,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.65,
 		"Initial Dash Speed": 1.892
-
 	},
 	"28": {
 		"Character Name": "Mario",
@@ -316,7 +288,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.5,
 		"Initial Dash Speed": 1.936
-
 	},
 	"29": {
 		"Character Name": "Dr. Mario",
@@ -327,7 +298,6 @@
 		"Air Acceleration Speed": 0.061184,
 		"Fall Speed": 1.5,
 		"Initial Dash Speed": 1.936
-
 	},
 	"30": {
 		"Character Name": "Luigi",
@@ -338,7 +308,6 @@
 		"Air Acceleration Speed": 0.075,
 		"Fall Speed": 1.32,
 		"Initial Dash Speed": 1.815
-
 	},
 	"31": {
 		"Character Name": "Shulk",
@@ -349,7 +318,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.58,
 		"Initial Dash Speed": 1.87
-
 	},
 	"32": {
 		"Character Name": "Pit",
@@ -360,7 +328,6 @@
 		"Air Acceleration Speed": 0.075,
 		"Fall Speed": 1.48,
 		"Initial Dash Speed": 2.09
-
 	},
 	"33": {
 		"Character Name": "Dark Pit",
@@ -371,7 +338,6 @@
 		"Air Acceleration Speed": 0.075,
 		"Fall Speed": 1.48,
 		"Initial Dash Speed": 2.09
-
 	},
 	"34": {
 		"Character Name": "Wii Fit Trainer",
@@ -382,7 +348,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.3,
 		"Initial Dash Speed": 2.024
-
 	},
 	"35": {
 		"Character Name": "Ivysaur",
@@ -393,7 +358,6 @@
 		"Air Acceleration Speed": 0.095,
 		"Fall Speed": 1.38,
 		"Initial Dash Speed": 1.903
-
 	},
 	"36": {
 		"Character Name": "Roy",
@@ -404,7 +368,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.8,
 		"Initial Dash Speed": 2.2
-
 	},
 	"37": {
 		"Character Name": "Chrom",
@@ -415,7 +378,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.8,
 		"Initial Dash Speed": 2.2
-
 	},
 	"38": {
 		"Character Name": "Robin",
@@ -426,7 +388,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.5,
 		"Initial Dash Speed": 1.815
-
 	},
 	"39": {
 		"Character Name": "PAC-MAN",
@@ -437,7 +398,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.35,
 		"Initial Dash Speed": 1.87
-
 	},
 	"40": {
 		"Character Name": "Ness",
@@ -448,7 +408,6 @@
 		"Air Acceleration Speed": 0.1,
 		"Fall Speed": 1.31,
 		"Initial Dash Speed": 1.826
-
 	},
 	"41": {
 		"Character Name": "Lucas",
@@ -459,7 +418,6 @@
 		"Air Acceleration Speed": 0.095,
 		"Fall Speed": 1.37,
 		"Initial Dash Speed": 1.815
-
 	},
 	"42": {
 		"Character Name": "Inkling",
@@ -470,7 +428,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.58,
 		"Initial Dash Speed": 2.118
-
 	},
 	"43": {
 		"Character Name": "Mii Brawler",
@@ -481,7 +438,6 @@
 		"Air Acceleration Speed": 0.068,
 		"Fall Speed": 1.92,
 		"Initial Dash Speed": 1.87
-
 	},
 	"44": {
 		"Character Name": "Wolf",
@@ -492,7 +448,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.8,
 		"Initial Dash Speed": 2.09
-
 	},
 	"45": {
 		"Character Name": "Ice Climbers",
@@ -503,7 +458,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.3,
 		"Initial Dash Speed": 1.68
-
 	},
 	"46": {
 		"Character Name": "Villager",
@@ -514,7 +468,6 @@
 		"Air Acceleration Speed": 0.06,
 		"Fall Speed": 1.32,
 		"Initial Dash Speed": 1.815
-
 	},
 	"47": {
 		"Character Name": "Lucario",
@@ -525,7 +478,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.68,
 		"Initial Dash Speed": 2.255
-
 	},
 	"48": {
 		"Character Name": "Palutena",
@@ -536,7 +488,6 @@
 		"Air Acceleration Speed": 0.115,
 		"Fall Speed": 1.55,
 		"Initial Dash Speed": 2.035
-
 	},
 	"49": {
 		"Character Name": "Toon Link",
@@ -547,7 +498,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.38,
 		"Initial Dash Speed": 1.914
-
 	},
 	"50": {
 		"Character Name": "Lucina",
@@ -558,7 +508,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.58,
 		"Initial Dash Speed": 2.255
-
 	},
 	"51": {
 		"Character Name": "Marth",
@@ -569,7 +518,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.58,
 		"Initial Dash Speed": 2.255
-
 	},
 	"52": {
 		"Character Name": "Diddy Kong",
@@ -580,7 +528,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.75,
 		"Initial Dash Speed": 2.09
-
 	},
 	"53": {
 		"Character Name": "Peach",
@@ -591,7 +538,6 @@
 		"Air Acceleration Speed": 0.12,
 		"Fall Speed": 1.19,
 		"Initial Dash Speed": 1.826
-
 	},
 	"54": {
 		"Character Name": "Daisy",
@@ -602,7 +548,6 @@
 		"Air Acceleration Speed": 0.12,
 		"Fall Speed": 1.19,
 		"Initial Dash Speed": 1.826
-
 	},
 	"55": {
 		"Character Name": "Isabelle",
@@ -613,7 +558,6 @@
 		"Air Acceleration Speed": 0.06,
 		"Fall Speed": 1.3,
 		"Initial Dash Speed": 1.815
-
 	},
 	"56": {
 		"Character Name": "Greninja",
@@ -624,7 +568,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.85,
 		"Initial Dash Speed": 2.178
-
 	},
 	"57": {
 		"Character Name": "Young Link",
@@ -635,7 +578,6 @@
 		"Air Acceleration Speed": 0.06,
 		"Fall Speed": 1.8,
 		"Initial Dash Speed": 2.09
-
 	},
 	"58": {
 		"Character Name": "Little Mac",
@@ -646,7 +588,6 @@
 		"Air Acceleration Speed": 0.04,
 		"Fall Speed": 1.95,
 		"Initial Dash Speed": 2.365
-
 	},
 	"59": {
 		"Character Name": "Sonic",
@@ -657,7 +598,6 @@
 		"Air Acceleration Speed": 0.05,
 		"Fall Speed": 1.65,
 		"Initial Dash Speed": 2.31
-
 	},
 	"60": {
 		"Character Name": "Duck Hunt",
@@ -668,7 +608,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.65,
 		"Initial Dash Speed": 1.76
-
 	},
 	"61": {
 		"Character Name": "Zelda",
@@ -679,7 +618,6 @@
 		"Air Acceleration Speed": 0.065,
 		"Fall Speed": 1.35,
 		"Initial Dash Speed": 1.958
-
 	},
 	"62": {
 		"Character Name": "Rosalina",
@@ -690,7 +628,6 @@
 		"Air Acceleration Speed": 0.11,
 		"Fall Speed": 1.2,
 		"Initial Dash Speed": 2.035
-
 	},
 	"63": {
 		"Character Name": "Falco",
@@ -701,7 +638,6 @@
 		"Air Acceleration Speed": 0.1,
 		"Fall Speed": 1.8,
 		"Initial Dash Speed": 2.035
-
 	},
 	"64": {
 		"Character Name": "Bayonetta",
@@ -712,7 +648,6 @@
 		"Air Acceleration Speed": 0.095,
 		"Fall Speed": 1.77,
 		"Initial Dash Speed": 1.936
-
 	},
 	"65": {
 		"Character Name": "Meta Knight",
@@ -723,7 +658,6 @@
 		"Air Acceleration Speed": 0.075,
 		"Fall Speed": 1.66,
 		"Initial Dash Speed": 2.211
-
 	},
 	"66": {
 		"Character Name": "Zero Suit Samus",
@@ -734,7 +668,6 @@
 		"Air Acceleration Speed": 0.095,
 		"Fall Speed": 1.7,
 		"Initial Dash Speed": 2.42
-
 	},
 	"67": {
 		"Character Name": "Kirby",
@@ -745,7 +678,6 @@
 		"Air Acceleration Speed": 0.095,
 		"Fall Speed": 1.23,
 		"Initial Dash Speed": 1.9
-
 	},
 	"68": {
 		"Character Name": "Pikachu",
@@ -756,7 +688,6 @@
 		"Air Acceleration Speed": 0.1,
 		"Fall Speed": 1.55,
 		"Initial Dash Speed": 1.98
-
 	},
 	"69": {
 		"Character Name": "Olimar",
@@ -767,7 +698,6 @@
 		"Air Acceleration Speed": 0.08,
 		"Fall Speed": 1.35,
 		"Initial Dash Speed": 1.606
-
 	},
 	"70": {
 		"Character Name": "Sheik",
@@ -778,7 +708,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 1.75,
 		"Initial Dash Speed": 2.178
-
 	},
 	"71": {
 		"Character Name": "Mewtwo",
@@ -789,7 +718,6 @@
 		"Air Acceleration Speed": 0.07,
 		"Fall Speed": 1.55,
 		"Initial Dash Speed": 2.255
-
 	},
 	"72": {
 		"Character Name": "Fox",
@@ -800,7 +728,6 @@
 		"Air Acceleration Speed": 0.09,
 		"Fall Speed": 2.1,
 		"Initial Dash Speed": 2.09
-
 	},
 	"73": {
 		"Character Name": "Mr. Game & Watch",
@@ -811,7 +738,6 @@
 		"Air Acceleration Speed": 0.1,
 		"Fall Speed": 1.24,
 		"Initial Dash Speed": 1.98
-
 	},
 	"74": {
 		"Character Name": "Squirtle",
@@ -822,7 +748,6 @@
 		"Air Acceleration Speed": 0.105,
 		"Fall Speed": 1.35,
 		"Initial Dash Speed": 1.936
-
 	},
 	"75": {
 		"Character Name": "Jigglypuff",
@@ -833,7 +758,6 @@
 		"Air Acceleration Speed": 0.13,
 		"Fall Speed": 0.98,
 		"Initial Dash Speed": 1.65
-
 	},
 	"76": {
 		"Character Name": "Pichu",
@@ -844,6 +768,5 @@
 		"Air Acceleration Speed": 0.1,
 		"Fall Speed": 1.9,
 		"Initial Dash Speed": 1.98
-
 	}
 }
