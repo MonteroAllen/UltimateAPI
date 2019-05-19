@@ -20,6 +20,7 @@ for sheet in wb:
   # 0 move name
   # 1 Startup, 2 Total Frames, Landing lag
   # 5 Base dmg, 6 shieldlag, 7 shieldstun, 8 which hitbox, 9 Advantage
+  # number of hitboxes from 5 | number of hits from 1
   for line in sheet:
     if line[0].value != None:
       print(line[0].value)
